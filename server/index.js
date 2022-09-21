@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/js', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/styles.css'))
+    res.sendFile(path.join(__dirname, '../client/index.css'))
 })
 
 app.use('/js', express.static(path.join(__dirname, 'server/index.js')))
