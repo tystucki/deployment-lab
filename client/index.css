@@ -2,10 +2,6 @@ p {
     color: red;
     font-size: 24px;
 }
-h1 {
-    color: green;
-    font-size: 40px;
-}
 section {
     position: relative;
     width: 100%;
@@ -46,6 +42,10 @@ section img {
 #header ul li a:hover,
  #header ul li a.active { 
     background: var(--primary);
-    color: #fff;
+    color: black;
 } 
 
+#washing {
+    height: 300px;
+    width: 600px;
+}
