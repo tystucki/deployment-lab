@@ -13,6 +13,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/index.html'))
 })
 
+app.get('/js', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.js'))
+})
 
 app.listen(port, () => {
     console.log('Docked at port ' + port)
