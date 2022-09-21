@@ -1,9 +1,9 @@
 {
   "name": "deployment-lab",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +12,15 @@
   "dependencies": {
     "dotenv": "^16.0.2",
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tystucki/deployment-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tystucki/deployment-lab/issues"
+  },
+  "homepage": "https://github.com/tystucki/deployment-lab#readme",
+  "description": ""
 }
